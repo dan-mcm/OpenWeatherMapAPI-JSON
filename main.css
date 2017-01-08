@@ -1,0 +1,108 @@
+/* sets default body style and background image */
+body{
+    margin:5%;
+    text-align:center;
+    background-image: url("./backgroundimage.jpg");
+}
+
+/* sets default header style */
+header{
+    background-color:maroon;
+    width:25%;
+    display:inline-block;
+    color: white;
+    border: 5px solid grey;
+    background-color: rgba(108,0,50,0.8);
+    min-width:150px;
+}
+
+/* sets h2 style to underline */
+h2{
+    text-decoration:underline;
+}
+
+/* sets h3 style to underline */
+h3{
+    font-style:italic;
+}
+
+/* sets style for summary div positioned above google map on forecaster.html page */
+#summary{
+    border: 5px solid grey;
+    background-color: rgba(108,0,50,0.8);
+    color:white;
+    margin:1%;
+}
+
+/* sets style for form cusomisation div positioned below google map on forecaster.html page */
+#form{
+    background-color:maroon;
+    color:white;
+    display:inline-block;
+    padding:1%;
+    border: 5px solid grey;
+    background-color: rgba(108,0,50,0.8)
+    
+}
+
+/* sets style for standard Daily.json divs - hides them by default */
+#day1, #day2, #day3, #day4, #day5{
+    display:none;
+    margin:auto;
+    margin:1%;
+    padding:1%;
+    color:white;
+
+    width:15%;
+    border: 5px solid grey;
+    float:left;
+    min-width:130px;
+    
+    background-color: rgba(108,0,50,0.8)
+}
+
+/* sets style for standard Detailed.json divs - hides them by default */
+#div1e #div2e #div3e #div4e #div5e{
+    display:none;
+}
+
+/* sets style for google map */
+#map-canvas{
+    height:440px;
+    width:770px;
+    overflow:hidden;
+    margin:auto;
+}
+
+/* sets style & visibility for default overallview div */
+
+#overallView{
+    display:none;
+    margin:auto;
+    width:85%;
+}
+
+/* hides pressure divs by default */
+.pressure{
+    display:none;
+}
+
+/* hides humidity divs by default */
+.humid{
+    display:none;
+}
+
+/* hides wind speed divs by default */
+.speed{
+    display:none;
+}
+
+/* hides detailed.json info divs by default */
+.extra{
+    display:none;
+}
+
+/* sets width of linebreak image */
+.linebreak{
+    width:75%;
+}
